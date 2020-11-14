@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Marco\.nuget\packages\dlibdotnet\19.20.0.20200725\build\..\runtimes\win-AnyCPU\native\DlibDotNetNative.dll" />
+    <Content Remove="C:\Users\Marco\.nuget\packages\dlibdotnet\19.20.0.20200725\build\..\runtimes\win-AnyCPU\native\DlibDotNetNativeDnn.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DlibDotNet" Version="19.20.0.20200725" />
+  </ItemGroup>
+
+</Project>

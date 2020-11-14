@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Marco\.nuget\packages\dlibdotnet\19.20.0.20200725\build\..\runtimes\win-AnyCPU\native\DlibDotNetNative.dll" />
+    <Content Remove="C:\Users\Marco\.nuget\packages\dlibdotnet\19.20.0.20200725\build\..\runtimes\win-AnyCPU\native\DlibDotNetNativeDnn.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaceDetectionLibrary\FaceDetectionLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
